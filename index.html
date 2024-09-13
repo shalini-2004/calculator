@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        
+        <div class="screen">
+            <input type="text" id="display2" class="input2" readonly>
+        </div>
+        <div class="screen2">
+            <input type="text" id="display" class="input" readonly>
+        </div>
+         
+        
+
+        <div class="grid">
+            <div class="btn" onclick="clearDisplay()">Ac</div>
+            <div class="btn" onclick="remove()">x</div>
+            <div class="btn1" onclick="appendToDisplay('%')">%</div>
+            <div class="btn1" onclick="appendToDisplay('/')">/</div>
+            <div class="btn" onclick="appendToDisplay('1')">1</div>
+            <div class="btn" onclick="appendToDisplay('2')">2</div>
+            <div class="btn" onclick="appendToDisplay('3')">3</div>
+            <div class="btn1" onclick="appendToDisplay('*')">*</div>
+            <div class="btn" onclick="appendToDisplay('4')">4</div>
+            <div class="btn" onclick="appendToDisplay('5')">5</div>
+            <div class="btn" onclick="appendToDisplay('6')">6</div>
+            <div class="btn1" onclick="appendToDisplay('-')">-</div>
+            <div class="btn" onclick="appendToDisplay('7')">7</div>
+            <div class="btn" onclick="appendToDisplay('8')">8</div>
+            <div class="btn" onclick="appendToDisplay('9')">9</div>
+            <div class="btn1" onclick="appendToDisplay('+')">+</div>
+            <div class="more" onclick="appendToDisplay('0')">0</div>
+            <div class="btn" onclick="appendToDisplay('.')">.</div>
+            <div class="btn1" onclick="calculate()">=</div>
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

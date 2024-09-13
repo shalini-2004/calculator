@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRq7Cr-KU1XCpHbFJUTh7MP9FYP2jMU1hKxZE5olP6rqsqc6vug');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main{
+    width: 25%;
+    height: 92%;
+    border: 2px solid rgb(255, 255, 255)  ;
+    border-radius:2rem;
+
+    background-color: rgba(255, 255, 255, 0.179); /* Initial background color */
+    color: black; /* Text color */
+    /* padding: 20px; */
+    /* font-size: 24px; */
+    transition: background-color 1s ease;
+}
+.screen{
+    height:8rem;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    border: 0px solid black;
+}
+.screen2{
+    
+    width: 100%;
+    display: flex;
+    align-items: end;
+    border: 0px solid black;
+}
+ 
+
+.input{
+    text-align: right;
+    width: 100%; 
+    font-size: 4rem;
+    color: rgba(86, 14, 95, 0.797);
+    /* border-top:none; */
+    padding:1rem;
+    padding-right:10%;
+    border: 0px solid black;
+    background:none; 
+    
+     
+     
+}
+.input2{
+    text-align: right;
+    width: 100%;
+    font-size: 2rem;
+    color: rgba(156, 78, 166, 0.526);
+    border: 0px solid black;
+    padding-right: 10%;
+    background:none;  
+    /* border-bottom:none; */
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:repeat(4,20%);
+    grid-template-rows:repeat(5,37%) ;
+    height: auto;
+    gap:0.7rem;
+    justify-content: center;
+    /* border: 1px solid blueviolet; */
+    padding: 5%;
+}
+.more{
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:2rem;
+    /* border: 1px solid black; */
+    background-color: rgba(221, 218, 218, 0.768);
+    color: white;
+    transition: background-color 1s ease;
+    font-size: 1.5rem;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-color: rgba(221, 218, 218, 0.768);
+    color: white;
+    transition: background-color 1s ease;
+    font-size: 1.5rem;
+     
+}
+
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(152, 69, 163, 0.459);
+    color: white;
+    transition: background-color 1s ease;
+    font-size: 1.5rem;
+}
+
+ 
